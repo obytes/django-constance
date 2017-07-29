@@ -2,7 +2,6 @@
 Defines the base constance backend
 """
 
-
 class Backend(object):
 
     def get(self, key):

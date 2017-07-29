@@ -8,7 +8,7 @@ except ImportError:
     from django.core.cache.backends.locmem import CacheClass as LocMemCache
 
 from .. import Backend
-from ... import settings
+from constance import settings
 
 
 class DatabaseBackend(Backend):
